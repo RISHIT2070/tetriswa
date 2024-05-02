@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: nasi101/tetrisv2
+        image: nasi101/tetris
         ports:
         - containerPort: 80
 
@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: nasi101/tetrisv2
+        image: nasi101/tetris
   selector:
     matchLabels:
       app: tetris
