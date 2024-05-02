@@ -20,21 +20,6 @@ spec:
         - containerPort: 80
 
 ---
-# tetris-svc.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: tetris-service
-spec:
-  selector:
-    app: tetris
-  ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 80
-  type: LoadBalancer
-
----
 # tetris-rollout.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
@@ -59,3 +44,18 @@ spec:
     blueGreen:
       activeService: tetris-service
       previewService: tetris-preview
+
+---
+# tetris-svc.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: tetris-service
+spec:
+  selector:
+    app: tetris
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
