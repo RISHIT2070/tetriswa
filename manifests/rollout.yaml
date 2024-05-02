@@ -1,5 +1,6 @@
+# tetris-deployment.yaml
 apiVersion: apps/v1
-kind: Rollout
+kind: Deployment
 metadata:
   name: tetris-deployment
 spec:
@@ -17,13 +18,44 @@ spec:
         image: nasi101/tetris
         ports:
         - containerPort: 80
+
+---
+# tetris-svc.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: tetris-service
+spec:
+  selector:
+    app: tetris
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+
+---
+# tetris-rollout.yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: tetris-rollout
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tetris
+  template:
+    metadata:
+      labels:
+        app: tetris
+    spec:
+      containers:
+      - name: tetris
+        image: nasi101/tetris
+        ports:
+        - containerPort: 80
   strategy:
-    canary: #Indicates that the rollout should use the Canary strategy
-      stableService: tetris-stable
-      canaryService: tetris-canary
-      steps:
-      - setWeight: 20
-      - pause:
-          duration: "1m" # 1 hour
-      - setWeight: 60
-      - pause: {} # pause indefinitely
+    blueGreen:
+      activeService: tetris-service
+      previewService: tetris-preview
