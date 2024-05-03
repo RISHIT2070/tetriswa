@@ -3,6 +3,7 @@
 I'm thrilled to share that I've successfully completed a hands-on project focused on implementing GitOps practices using Argo CD and Argo Rollouts within an AWS EKS (Elastic Kubernetes Service) environment. Here's a brief overview of what I accomplished:
 
 🔧 **Project Overview**: The project aimed to automate the deployment and management of a simple web application using GitOps principles on AWS EKS.
+![Screenshot from 2024-05-03 03-42-11](https://github.com/RISHIT2070/tetriswa/assets/95566422/49f4fafd-0d11-4943-87b0-cb8d90b96f1d)
 
 🛠️ **Technologies Used**:
 - AWS EKS: Leveraged AWS EKS, a fully managed Kubernetes service, for container orchestration.
@@ -14,6 +15,9 @@ I'm thrilled to share that I've successfully completed a hands-on project focuse
 2. **GitOps Pipeline**: Dockerized the web application, deployed it using Argo CD, and configured automatic deployment upon code changes.
 3. **Canary Release**: Implemented a canary release strategy with Argo Rollouts, ensuring smooth and controlled deployments of new application versions.
 4. **Documentation and Cleanup**: Documented the entire process, including setup, deployment steps, and cleanup instructions to maintain a clean environment on AWS EKS.
+ARGOCD ROLLOUT STATE HEALTHY & SUCCESSFULLY DEPLOYED 
+
+![Screenshot from 2024-05-02 23-51-29](https://github.com/RISHIT2070/tetriswa/assets/95566422/aedcee0b-b48f-44a7-a8c1-0fd9c7bc4a46)
 
 📦 **Deliverables**:
 - GitHub Repository: [Link to GitHub Repo](https://github.com/RISHIT2070/tetriswa)
@@ -27,15 +31,7 @@ I'm proud of the progress made and excited to continue exploring and mastering D
 
 #GitOps #DevOps #AWS #EKS #Kubernetes #ArgoCD #ArgoRollouts #ContinuousDeployment #CanaryRelease #GitHub #LinkedInLearning #DevOpsJourney 🚀🔧📦
 
-![Screenshot from 2024-05-03 03-42-11](https://github.com/RISHIT2070/tetriswa/assets/95566422/49f4fafd-0d11-4943-87b0-cb8d90b96f1d)
-
-
-ARGOCD ROLLOUT STATE HEALTHY & SUCCESSFULLY DEPLOYED 
-
-![Screenshot from 2024-05-02 23-51-29](https://github.com/RISHIT2070/tetriswa/assets/95566422/aedcee0b-b48f-44a7-a8c1-0fd9c7bc4a46)
-
 Game Deployed On AWS-:
-![Screenshot from 2024-05-03 11-55-56](https://github.com/RISHIT2070/tetriswa/assets/95566422/3d52c2d8-46cd-41de-8c0f-62ddfb720779)
 ![Screenshot from 2024-05-03 11-56-20](https://github.com/RISHIT2070/tetriswa/assets/95566422/01a13ed9-24fe-4d70-9eed-9d74bad08d84)
 
 
