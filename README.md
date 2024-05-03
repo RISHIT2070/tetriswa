@@ -27,3 +27,4 @@ I'm proud of the progress made and excited to continue exploring and mastering D
 
 #GitOps #DevOps #AWS #EKS #Kubernetes #ArgoCD #ArgoRollouts #ContinuousDeployment #CanaryRelease #GitHub #LinkedInLearning #DevOpsJourney 🚀🔧📦
 
+![Screenshot from 2024-05-03 03-42-11](https://github.com/RISHIT2070/tetriswa/assets/95566422/49f4fafd-0d11-4943-87b0-cb8d90b96f1d)
