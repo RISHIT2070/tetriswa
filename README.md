@@ -29,5 +29,14 @@ I'm proud of the progress made and excited to continue exploring and mastering D
 
 ![Screenshot from 2024-05-03 03-42-11](https://github.com/RISHIT2070/tetriswa/assets/95566422/49f4fafd-0d11-4943-87b0-cb8d90b96f1d)
 
+
+ARGOCD ROLLOUT STATE HEALTHY & SUCCESSFULLY DEPLOYED 
+
 ![Screenshot from 2024-05-02 23-51-29](https://github.com/RISHIT2070/tetriswa/assets/95566422/aedcee0b-b48f-44a7-a8c1-0fd9c7bc4a46)
+
+Game Deployed On AWS-:
+![Screenshot from 2024-05-03 11-55-56](https://github.com/RISHIT2070/tetriswa/assets/95566422/3d52c2d8-46cd-41de-8c0f-62ddfb720779)
+![Screenshot from 2024-05-03 11-56-20](https://github.com/RISHIT2070/tetriswa/assets/95566422/01a13ed9-24fe-4d70-9eed-9d74bad08d84)
+
+
 
